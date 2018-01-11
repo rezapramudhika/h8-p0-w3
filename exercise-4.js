@@ -1,3 +1,8 @@
+/*Problem
+Diberikan sebuah function xo(str) yang menerima satu parameter berupa string. 
+Function angkan me-return true jika jumlah karakter x sama dengan jumlah karakter o, 
+dan false jika tidak. */
+
 function xo(str) {
     var find_x = str.match(/x/g);
     var find_o = str.match(/o/g);

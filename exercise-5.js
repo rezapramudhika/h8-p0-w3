@@ -1,3 +1,10 @@
+/*Problem
+Diberikan sebuah function perpangkatanDua(angka) yang menerima satu parameter berupa angka. 
+Function akan me-return n jika angka tersebut merupakan hasil dari dua pangkat n. 
+jika tidak, return -1. Contoh, jika angka adalah 16, dan karena 2^4 adalah 16, maka 
+function akan me-return 4. Contoh kedua, jika angka adalah 17, karena 17 bukan merupakan 
+hasil perpangkatan angka 2, maka function akan me-return -1. */
+
 function perpangkatanDua(str) {
     var num = 1;
     var result ='';

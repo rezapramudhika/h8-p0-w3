@@ -1,3 +1,8 @@
+/*Problem
+Diberikan sebuah function hitungJumlahKata(kalimat) yang menerima parameter berupa string yang 
+merupakan sebuah kalimat. Function akan mengembalikan jumlah kata dari kalimat tersebut. 
+Contoh, "I have a dream" akan menghasilkan nilai 4, karena memiliki 4 kata. */
+
 function hitungJumlahKata(kalimat) {
     var kata = kalimat.split(' ');
     return kata.length;
