@@ -11,6 +11,26 @@ function xo(str) {
     }else
         return false;
   }
+
+//without regex
+function xo(str) {
+    var temp = str.split('');
+    var count_x = 0;
+    var count_o = 0;
+    for(var i=0; i<=str.length-1; i++){
+        if(str[i]==='x'){
+            count_x += 1;
+        }else if(str[i]==='o'){
+            count_o += 1;
+        }
+    }
+    if(count_x == count_o){
+        return true;
+    }else{
+        return false
+    }
+    
+  }
   
   // TEST CASES
   console.log(xo('xoxoxo')); // true
